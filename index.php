@@ -2,6 +2,7 @@
 require_once("perro.php");
 $gatito = new perro("1","doky","35 kilos",new persona("per01","jesus","espinoza"),"10 cm");
 
+echo "<h2>DATOS DE MI MASCOTA</h2> <hr>";
 echo $gatito->getId();
 echo "<br>";
 echo $gatito->getNombre();
