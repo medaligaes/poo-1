@@ -35,5 +35,6 @@ class animal{
     public function getPersona(){
         return $this->persona->nombre;
     }
-
+public function getapellido(){
+    return $this->apellido
 }
